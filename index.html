@@ -77,29 +77,24 @@
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         
         <!-- Abstract -->
-        <section id="abstract" class="mb-20">
-            <div class="grid md:grid-cols-3 gap-12 items-start">
-                <div class="md:col-span-1">
-                    <h2 class="text-2xl font-bold section-title">论文摘要</h2>
+        <section id="abstract" class="mb-32">
+            <h2 class="text-3xl font-bold mb-12 text-center">论文摘要</h2>
+            
+            <div class="flex flex-col md:flex-row gap-12 items-start">
+                <!-- Abstract Image fig0.png (Left) -->
+                <div class="w-full md:w-1/3 flex-shrink-0 bg-white p-2 rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                    <img src="fig0.png" alt="Graphical Abstract" class="w-full h-auto object-contain rounded-lg">
+                    <p class="text-xs text-slate-400 text-center mt-2 italic">Graphical Abstract</p>
                 </div>
-                <div class="md:col-span-2">
-                    <div class="flex flex-col md:flex-row gap-8 items-start">
-                        <!-- Abstract Image fig0.png (Moved to Left) -->
-                        <div class="w-full md:w-1/3 flex-shrink-0 bg-white p-2 rounded-xl shadow-sm border border-slate-200 overflow-hidden">
-                            <img src="fig0.png" alt="Graphical Abstract" class="w-full h-auto object-contain rounded-lg">
-                            <p class="text-xs text-slate-400 text-center mt-2 italic">Graphical Abstract</p>
-                        </div>
-                        
-                        <!-- Abstract Text -->
-                        <div class="text-slate-600 leading-relaxed text-lg">
-                            <p class="mb-6">
-                                金属卤化物钙钛矿的结构框架由角共享的 $PbX_{6}$ 八面体定义。这些八面体的倾斜、畸变和连接方式决定了其相位稳定性、载流子动力学及光电性能。尽管其角色至关重要，但由于缺乏稳健的分析标准，直接实验分析钙钛矿量子点（QDs）中的八面体配置一直是一个挑战。
-                            </p>
-                            <p class="mb-8">
-                                我们提出了一种集成**机器视觉**的方法：利用自监督降噪（S2SRED）处理噪声敏感数据集，并结合螺旋八面体优先搜索（SOFS）算法，实现了对低剂量扫描透射电子显微术（STEM）图像的高保真处理。该研究揭示了 $CsPbI_{3}$ 中的“核-壳”倾斜特征，以及混合卤素系统中掺杂偏析导致的各向异性畸变。
-                            </p>
-                        </div>
-                    </div>
+                
+                <!-- Abstract Text -->
+                <div class="text-slate-600 leading-relaxed text-lg w-full md:w-2/3">
+                    <p class="mb-6">
+                        金属卤化物钙钛矿的结构框架由角共享的 $PbX_{6}$ 八面体定义。这些八面体的倾斜、畸变和连接方式决定了其相位稳定性、载流子动力学及光电性能。尽管其角色至关重要，但由于缺乏稳健的分析标准，直接实验分析钙钛矿量子点（QDs）中的八面体配置一直是一个挑战。
+                    </p>
+                    <p>
+                        我们提出了一种集成**机器视觉**的方法：利用自监督降噪（S2SRED）处理噪声敏感数据集，并结合螺旋八面体优先搜索（SOFS）算法，实现了对低剂量扫描透射电子显微术（STEM）图像的高保真处理。该研究揭示了 $CsPbI_{3}$ 中的“核-壳”倾斜特征，以及混合卤素系统中掺杂偏析导致的各向异性畸变。
+                    </p>
                 </div>
             </div>
         </section>
